@@ -1,0 +1,28 @@
+/* CSS dosyası (örneğin, Header.css) */
+
+header {
+    background-color: #333; /* Başlık arkaplan rengi */
+    padding: 10px; /* Başlık iç içe geçme */
+  }
+  
+  nav ul {
+    list-style: none; /* Liste öğelerinin işaretlerini kaldır */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Liste öğelerini yatay düzende göster */
+  }
+  
+  nav li {
+    margin-right: 20px; /* Liste öğeleri arasındaki boşluk */
+  }
+  
+  nav a {
+    text-decoration: none; /* Bağlantı alt çizgisi kaldır */
+    color: #fff; /* Bağlantı metni rengi */
+    font-weight: bold; /* Bağlantı metni kalınlığı */
+  }
+  
+  nav a:hover {
+    color: #ff4500; /* Bağlantı metni rengi üzerine gelindiğinde */
+  }
+  
