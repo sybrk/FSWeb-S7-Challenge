@@ -1,18 +1,18 @@
 import React from "react";
-
+import Navbar from "./components/homepagefolder/Navbar";
+import Home from "./components/homepagefolder/Home";
 import Form from "./components/Form";
 //import Header from "./components/homepagefolder/Header";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import HomePageFunction from "./components/homepagefolder/Homepagestructure";
 import ConfirmationPage from "./components/Confirmation";
 const App = () => {
   return (
     <>
       <Router>
-        {/* <Header /> */}
+        <Navbar />
         <Switch>
           <Route exact path="/">
-            <HomePageFunction />
+            <Home />
           </Route>
           <Route exact path="/pizza">
             <Form />
